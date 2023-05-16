@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: e-iceblue:spire.office:4.12.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/e-iceblue/spire.office/4.12.2/spire.office-4.12.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/e-iceblue/spire.office/4.12.2/spire.office-4.12.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/e-iceblue/spire.office/4.12.2/spire.office-4.12.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
