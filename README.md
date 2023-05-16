@@ -27,8 +27,9 @@ C:.
 3. 如果你需要哪个PDF解析模块，那么请将他构建成工件，便于操作,构建工件教程为:https://blog.csdn.net/weixin_47160526/article/details/123496190
 4. 构建完成后，请将其放到对应的根目录下
 5. main.go是本项目入口函数，你可以直接在本项目基础上进行开发（以约定进行开发），或者使用
+![img_2.png](img_2.png)
 ```
-go get -u github.com/jiahao-victory/pdfprase
+go get -u github.com/jiahao-victory/pdfprase@v0.0.1
 ```
 然后在你自己的项目中
 ```azure
@@ -41,7 +42,7 @@ import "github.com/jiahao-victory/pdfprase"
 * controller模块编写对应的控制层，在service层获取对应的数据
 * dao用于解析图片，文字，xml文件等自定以解析文件，目前该框架只支持图片压入数据库，关键字格式化压入数据库，xml压入数据库
 * model模型，根据不同解析文件定义对应的模型
-* resource存放对应的PDF文件
+* resource存放对应的PDF文件,当然你也可以自定义路径，默认是当前运行项目路径，所以只需要在你运行项目对应的目录下生成即可
 * router路由，根据对应的API接口在后台进行获取
 * run，并发执行，工具启动入口，目前包含文字提取，图片提取，文字存储
 * service，服务层，获取对应数据库中的数据
@@ -66,3 +67,19 @@ func main() {
 }
 ```
 ### 使用方式-以框架的方式在自己的项目上进行开发
+![img_1.png](img_1.png)
+![img_3.png](img_3.png)
+```azure
+package main
+
+import (
+	"github.com/jiahao-victory/pdfprase/run"
+	"github.com/jiahao-victory/pdfprase/util"
+)
+
+func main()  {
+	util.InitDB("user","psw","db")
+	run.Run()
+	
+}
+```
