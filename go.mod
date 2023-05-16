@@ -1,11 +1,11 @@
 module github.com/jiahao-victory/pdfprase
 
-go 1.17
+go 1.19
 
 require (
 	github.com/gin-gonic/gin v1.9.0
 	github.com/jinzhu/gorm v1.9.16
-	github.com/mozillazg/go-pinyin v0.19.0
+	github.com/mozillazg/go-pinyin v0.20.0
 )
 
 require (
