@@ -2,7 +2,7 @@ package dao
 
 import (
 	"fmt"
-	"pdfprase/util"
+	"github.com/jiahao-victory/pdfprase/util"
 )
 func CreateTableAndImag(filePdf string,tableName string)error{
 	currentTableName:=tableName

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
-	"pdfprase/util"
+	"github.com/jiahao-victory/pdfprase/util"
 	"strconv"
 	"strings"
 )

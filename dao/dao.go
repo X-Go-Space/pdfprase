@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
-	"pdfprase/util"
+	"github.com/jiahao-victory/pdfprase/util"
 	"regexp"
 	"strings"
 )

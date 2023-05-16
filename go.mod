@@ -1,14 +1,11 @@
-module pdfprase
+module github.com/jiahao-victory/pdfprase
 
 go 1.17
 
 require (
-	github.com/360EntSecGroup-Skylar/excelize v1.4.1
 	github.com/gin-gonic/gin v1.9.0
-	github.com/google/go-tika v0.3.0
 	github.com/jinzhu/gorm v1.9.16
 	github.com/mozillazg/go-pinyin v0.19.0
-	gopkg.in/ini.v1 v1.67.0
 )
 
 require (
@@ -27,7 +24,6 @@ require (
 	github.com/mattn/go-isatty v0.0.17 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421 // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
-	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.6 // indirect
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
 	github.com/ugorji/go/codec v1.2.9 // indirect

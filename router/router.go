@@ -2,7 +2,7 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	"pdfprase/controller"
+	"github.com/jiahao-victory/pdfprase/controller"
 )
 func Run(){
 	r:=gin.Default()

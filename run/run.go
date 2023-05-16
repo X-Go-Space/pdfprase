@@ -3,7 +3,7 @@ package run
 import (
 	"fmt"
 	"os/exec"
-	"pdfprase/dao"
+	"github.com/jiahao-victory/pdfprase/dao"
 	"sync"
 	"time"
 )
